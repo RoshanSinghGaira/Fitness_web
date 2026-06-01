@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <!-- ---- Meta ---- -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="FitLife Pro — Transform your body and life with personalized fitness programs, nutrition guidance, and expert coaching. Join 10,000+ members today." />
+  <meta name="keywords" content="fitness, gym, personal training, weight loss, muscle building, nutrition, online coaching, workout plans" />
+  <meta name="author" content="FitLife Pro" />
+  <meta name="theme-color" content="#0a0a0a" />
+
+  <!-- ---- Open Graph ---- -->
+  <meta property="og:title" content="FitLife Pro — Premium Fitness Programs" />
+  <meta property="og:description" content="Personalized fitness programs, nutrition guidance, and expert coaching." />
+  <meta property="og:type" content="website" />
+
+  <title>FitLife Pro — Transform Your Body, Transform Your Life</title>
+
+  <!-- ---- Fonts ---- -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- ---- Stylesheet ---- -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Skip to Content (Accessibility) -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Preloader -->
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <div class="loader"></div>
+  </div>
+
+  <!-- Mobile Overlay -->
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+
+  <!-- =============================================
+       NAVIGATION
+       ============================================= -->
+  <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <!-- Logo -->
+      <a href="#" class="nav-logo" aria-label="FitLife Pro Home">
+        <div class="logo-icon">💪</div>
+        Fit<span>Life</span> Pro
+      </a>
+
+      <!-- Nav Links -->
+      <div class="nav-links" id="navLinks">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#plans">Plans</a>
+        <a href="#bmi">BMI</a>
+        <a href="#testimonials">Stories</a>
+        <a href="#blog">Blog</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <!-- Actions -->
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle theme">
+          🌙
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Open navigation menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- =============================================
+       MAIN CONTENT
+       ============================================= -->
+  <main id="main-content">
+
+    <!-- =========================================
+         1. HERO SECTION
+         ========================================= -->
+    <section class="hero section" id="home">
+      <div class="hero-bg">
+        <img src="images/hero-banner.png" alt="Athletic person training in a dark gym with dramatic green lighting" loading="eager" />
+      </div>
+
+      <!-- Decorative circles -->
+      <div class="hero-decor" aria-hidden="true">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+      </div>
+
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="pulse"></span>
+            Now Enrolling New Members
+          </div>
+
+          <h1>
+            Transform Your Body,<br />
+            Transform Your <span class="highlight">Life</span>
+          </h1>
+
+          <p>
+            Personalized fitness programs, nutrition guidance, and expert coaching — everything you need to achieve your dream physique and live healthier.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#plans" class="btn btn-primary" id="hero-get-started">
+              Get Started
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+            <a href="#services" class="btn btn-secondary" id="hero-view-programs">
+              View Programs
+            </a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="hero-stat">
+              <h3>10K+</h3>
+              <p>Active Members</p>
+            </div>
+            <div class="hero-stat">
+              <h3>150+</h3>
+              <p>Expert Trainers</p>
+            </div>
+            <div class="hero-stat">
+              <h3>98%</h3>
+              <p>Success Rate</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================
+         2. ABOUT US SECTION
+         ========================================= -->
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-label">About Us</p>
+          <h2>We Help You Build a Stronger, <br/>Healthier You</h2>
+          <p>Since 2015, FitLife Pro has been dedicated to transforming lives through fitness, nutrition, and mindset coaching.</p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Image -->
+          <div class="about-image reveal-left">
+            <img src="images/trainer.png" alt="FitLife Pro head trainer in athletic wear, arms crossed confidently" />
+            <div class="experience-badge">
+              <h3>10+</h3>
+              <p>Years Experience</p>
+            </div>
+          </div>
+
+          <!-- Content -->
+          <div class="about-content reveal-right">
+            <h3>Our Mission is to Empower Every Individual</h3>
+            <p>
+              At FitLife Pro, we believe fitness is not just about lifting weights — it's a lifestyle. Our certified trainers design customized programs tailored to your goals, whether you want to lose weight, build muscle, or simply feel more confident.
+            </p>
+            <p>
+              Our state-of-the-art facilities, combined with science-backed training methodologies, create the perfect environment for your transformation journey.
+            </p>
+
+            <div class="about-features">
+              <div class="about-feature">
+                <div class="icon">🎯</div>
+                <span>Goal Oriented</span>
+              </div>
+              <div class="about-feature">
+                <div class="icon">🧬</div>
+                <span>Science Backed</span>
+              </div>
+              <div class="about-feature">
+                <div class="icon">🏆</div>
+                <span>Award Winning</span>
+              </div>
+              <div class="about-feature">
+                <div class="icon">🤝</div>
+                <span>Community First</span>
+              </div>
+            </div>
+
+            <a href="#contact" class="btn btn-primary" id="about-cta">
+              Join Our Community
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================
+         3. SERVICES SECTION
+         ========================================= -->
+    <section class="services section" id="services">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-label">Our Services</p>
+          <h2>Everything You Need to <br/>Reach Your Goals</h2>
+          <p>From one-on-one coaching to group classes, we offer a full spectrum of fitness services.</p>
+        </div>
+
+        <div class="services-grid stagger">
+          <!-- Service 1 -->
+          <div class="service-card glass-card reveal" id="service-personal-training">
+            <span class="service-number">01</span>
+            <div class="service-icon">🏋️</div>
+            <h3>Personal Training</h3>
+            <p>One-on-one customized training sessions with certified fitness experts designed around your unique goals and schedule.</p>
+          </div>
+
+          <!-- Service 2 -->
+          <div class="service-card glass-card reveal" id="service-weight-loss">
+            <span class="service-number">02</span>
+            <div class="service-icon">🔥</div>
+            <h3>Weight Loss Programs</h3>
+            <p>Structured fat-loss programs combining HIIT, strength training, and cardio for sustainable, lasting results.</p>
+          </div>
+
+          <!-- Service 3 -->
+          <div class="service-card glass-card reveal" id="service-muscle-building">
+            <span class="service-number">03</span>
+            <div class="service-icon">💪</div>
+            <h3>Muscle Building</h3>
+            <p>Progressive overload programs with periodized training splits to maximize hypertrophy and strength gains.</p>
+          </div>
+
+          <!-- Service 4 -->
+          <div class="service-card glass-card reveal" id="service-nutrition">
+            <span class="service-number">04</span>
+            <div class="service-icon">🥗</div>
+            <h3>Nutrition Planning</h3>
+            <p>Personalized meal plans crafted by certified nutritionists to fuel your workouts and accelerate recovery.</p>
+          </div>
+
+          <!-- Service 5 -->
+          <div class="service-card glass-card reveal" id="service-online-coaching">
+            <span class="service-number">05</span>
+            <div class="service-icon">📱</div>
+            <h3>Online Coaching</h3>
+            <p>Train anywhere with virtual coaching sessions, real-time progress tracking, and 24/7 support from your trainer.</p>
+          </div>
+
+          <!-- Service 6 -->
+          <div class="service-card glass-card reveal" id="service-group-fitness">
+            <span class="service-number">06</span>
+            <div class="service-icon">👥</div>
+            <h3>Group Fitness Classes</h3>
+            <p>High-energy group sessions including yoga, spin, crossfit, and Zumba for a fun and motivating community experience.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================
+         4. WORKOUT PLANS / PRICING SECTION
+         ========================================= -->
+    <section class="pricing section" id="plans">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-label">Workout Plans</p>
+          <h2>Choose Your Perfect <br/>Training Plan</h2>
+          <p>Flexible plans for every fitness level. No contracts, cancel anytime.</p>
+        </div>
+
+        <div class="pricing-grid stagger">
+          <!-- Beginner Plan -->
+          <div class="pricing-card glass-card reveal" id="plan-beginner">
+            <p class="plan-name">Beginner Plan</p>
+            <p class="plan-price">
+              <span class="currency">₹</span>999
+              <span class="period">/month</span>
+            </p>
+            <p class="plan-desc">Perfect for fitness newcomers ready to start their journey.</p>
+            <ul class="plan-features">
+              <li><span class="check">✓</span> Access to gym facilities</li>
+              <li><span class="check">✓</span> 2 personal training sessions</li>
+              <li><span class="check">✓</span> Basic nutrition guide</li>
+              <li><span class="check">✓</span> Group fitness classes</li>
+              <li><span class="check">✓</span> Locker room access</li>
+              <li><span class="check">✓</span> Progress tracking app</li>
+            </ul>
+            <a href="#contact" class="btn btn-secondary" id="plan-beginner-join">Join Now</a>
+          </div>
+
+          <!-- Intermediate Plan (Featured) -->
+          <div class="pricing-card glass-card featured reveal" id="plan-intermediate">
+            <p class="plan-name">Intermediate Plan</p>
+            <p class="plan-price">
+              <span class="currency">₹</span>1,999
+              <span class="period">/month</span>
+            </p>
+            <p class="plan-desc">For dedicated athletes looking to level up their performance.</p>
+            <ul class="plan-features">
+              <li><span class="check">✓</span> Everything in Beginner</li>
+              <li><span class="check">✓</span> 5 personal training sessions</li>
+              <li><span class="check">✓</span> Custom meal plan</li>
+              <li><span class="check">✓</span> Body composition analysis</li>
+              <li><span class="check">✓</span> Supplement guidance</li>
+              <li><span class="check">✓</span> Priority class booking</li>
+              <li><span class="check">✓</span> Weekly progress reviews</li>
+            </ul>
+            <a href="#contact" class="btn btn-primary" id="plan-intermediate-join">Join Now</a>
+          </div>
+
+          <!-- Advanced Plan -->
+          <div class="pricing-card glass-card reveal" id="plan-advanced">
+            <p class="plan-name">Advanced Plan</p>
+            <p class="plan-price">
+              <span class="currency">₹</span>2,999
+              <span class="period">/month</span>
+            </p>
+            <p class="plan-desc">Elite tier for serious athletes and competition prep.</p>
+            <ul class="plan-features">
+              <li><span class="check">✓</span> Everything in Intermediate</li>
+              <li><span class="check">✓</span> Unlimited PT sessions</li>
+              <li><span class="check">✓</span> Advanced nutrition coaching</li>
+              <li><span class="check">✓</span> Recovery & physiotherapy</li>
+              <li><span class="check">✓</span> 24/7 trainer access</li>
+              <li><span class="check">✓</span> Competition prep support</li>
+              <li><span class="check">✓</span> Exclusive member events</li>
+              <li><span class="check">✓</span> Free merchandise</li>
+            </ul>
+            <a href="#contact" class="btn btn-secondary" id="plan-advanced-join">Join Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================
+         5. BMI CALCULATOR SECTION
+         ========================================= -->
+    <section class="bmi section" id="bmi">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-label">BMI Calculator</p>
+          <h2>Know Your Body <br/>Mass Index</h2>
+          <p>Calculate your BMI to understand where you stand and plan your fitness journey accordingly.</p>
+        </div>
+
+        <div class="bmi-wrapper">
+          <!-- Form -->
+          <div class="bmi-form glass-card reveal-left" id="bmi-calculator">
+            <h3>Calculate Your BMI</h3>
+            <p>Enter your height and weight below to get started.</p>
+
+            <form id="bmiForm" aria-label="BMI Calculator Form">
+              <div class="form-group">
+                <label for="bmi-height">Height (cm)</label>
+                <input type="number" id="bmi-height" name="height" placeholder="e.g. 175" min="50" max="300" required aria-required="true" />
+              </div>
+              <div class="form-group">
+                <label for="bmi-weight">Weight (kg)</label>
+                <input type="number" id="bmi-weight" name="weight" placeholder="e.g. 70" min="10" max="500" required aria-required="true" />
+              </div>
+              <button type="submit" class="btn btn-primary" id="bmi-calculate-btn">
+                Calculate BMI
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </button>
+            </form>
+          </div>
+
+          <!-- Result -->
+          <div class="bmi-result glass-card reveal-right" id="bmi-result-card">
+            <div class="result-circle" id="bmi-result-circle">
+              <span class="bmi-value" id="bmi-value">—</span>
+              <span class="bmi-label">BMI</span>
+            </div>
+            <p class="bmi-category" id="bmi-category">Enter your details</p>
+            <p class="bmi-message" id="bmi-message">Your BMI result and health category will appear here.</p>
+
+            <div class="bmi-chart">
+              <div class="bmi-chart-item">
+                <span class="bmi-underweight" style="font-weight:600;">Underweight</span>
+                <p class="range">&lt; 18.5</p>
+              </div>
+              <div class="bmi-chart-item">
+                <span class="bmi-normal" style="font-weight:600;">Normal</span>
+                <p class="range">18.5 – 24.9</p>
+              </div>
+              <div class="bmi-chart-item">
+                <span class="bmi-overweight" style="font-weight:600;">Overweight</span>
+                <p class="range">25 – 29.9</p>
+              </div>
+              <div class="bmi-chart-item">
+                <span class="bmi-obese" style="font-weight:600;">Obese</span>
+                <p class="range">≥ 30</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================
+         6. SUCCESS STORIES / TESTIMONIALS
+         ========================================= -->
+    <section class="testimonials section" id="testimonials">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-label">Success Stories</p>
+          <h2>What Our Members <br/>Are Saying</h2>
+          <p>Real stories from real people who transformed their lives with FitLife Pro.</p>
+        </div>
+
+        <div class="testimonials-grid stagger">
+          <!-- Testimonial 1 -->
+          <div class="testimonial-card glass-card reveal" id="testimonial-1">
+            <div class="stars" aria-label="5 out of 5 stars">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <p class="quote">"I lost 15kg in just 4 months! The personal training sessions and nutrition plan were a game-changer. My trainer pushed me beyond what I thought was possible."</p>
+            <div class="author">
+              <div class="author-avatar" aria-hidden="true">RP</div>
+              <div class="author-info">
+                <h4>Rahul Patel</h4>
+                <p>Lost 15kg • Member since 2023</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="testimonial-card glass-card reveal" id="testimonial-2">
+            <div class="stars" aria-label="5 out of 5 stars">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <p class="quote">"FitLife Pro's group classes are incredibly motivating. The community here keeps me accountable, and I've never felt stronger or more confident in my life."</p>
+            <div class="author">
+              <div class="author-avatar" aria-hidden="true">AS</div>
+              <div class="author-info">
+                <h4>Ananya Sharma</h4>
+                <p>Gained Confidence • Member since 2022</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div class="testimonial-card glass-card reveal" id="testimonial-3">
+            <div class="stars" aria-label="5 out of 5 stars">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <p class="quote">"The online coaching program is perfect for my busy schedule. I get personalized workouts, meal plans, and my trainer checks in daily. Worth every rupee!"</p>
+            <div class="author">
+              <div class="author-avatar" aria-hidden="true">VK</div>
+              <div class="author-info">
+                <h4>Vikram Kumar</h4>
+                <p>Built Muscle • Member since 2024</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================
+         7. FITNESS BLOG PREVIEW
+         ========================================= -->
+    <section class="blog section" id="blog">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-label">Fitness Blog</p>
+          <h2>Latest Tips & <br/>Expert Insights</h2>
+          <p>Stay updated with the latest fitness trends, workout tips, and nutrition advice from our experts.</p>
+        </div>
+
+        <div class="blog-grid stagger">
+          <!-- Blog 1 -->
+          <article class="blog-card glass-card reveal" id="blog-weight-loss">
+            <div class="blog-image">
+              <img src="images/blog-weightloss.png" alt="Person running on treadmill for weight loss" loading="lazy" />
+              <span class="blog-tag">Weight Loss</span>
+            </div>
+            <div class="blog-body">
+              <div class="blog-meta">
+                <span>📅 May 28, 2026</span>
+                <span>⏱ 5 min read</span>
+              </div>
+              <h3>10 Proven Weight Loss Tips That Actually Work</h3>
+              <p>Discover science-backed strategies to shed fat effectively without extreme dieting or burnout.</p>
+              <a href="#" class="read-more">
+                Read More <span class="arrow">→</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Blog 2 -->
+          <article class="blog-card glass-card reveal" id="blog-home-workouts">
+            <div class="blog-image">
+              <img src="images/blog-homeworkout.png" alt="Person doing push-ups at home for a home workout routine" loading="lazy" />
+              <span class="blog-tag">Workouts</span>
+            </div>
+            <div class="blog-body">
+              <div class="blog-meta">
+                <span>📅 May 22, 2026</span>
+                <span>⏱ 7 min read</span>
+              </div>
+              <h3>Best Home Workouts for Building Strength</h3>
+              <p>No gym? No problem. These bodyweight exercises will help you build muscle and endurance at home.</p>
+              <a href="#" class="read-more">
+                Read More <span class="arrow">→</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Blog 3 -->
+          <article class="blog-card glass-card reveal" id="blog-diet-guide">
+            <div class="blog-image">
+              <img src="images/blog-diet.png" alt="Healthy diet flat lay with fruits, vegetables, and smoothie bowls" loading="lazy" />
+              <span class="blog-tag">Nutrition</span>
+            </div>
+            <div class="blog-body">
+              <div class="blog-meta">
+                <span>📅 May 15, 2026</span>
+                <span>⏱ 6 min read</span>
+              </div>
+              <h3>The Complete Healthy Diet Guide for Athletes</h3>
+              <p>Learn how to fuel your body properly with the right macros, micros, and meal timing strategies.</p>
+              <a href="#" class="read-more">
+                Read More <span class="arrow">→</span>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================
+         8. GALLERY SECTION
+         ========================================= -->
+    <section class="gallery section" id="gallery">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-label">Gallery</p>
+          <h2>See the Transformation <br/>in Action</h2>
+          <p>Explore our facilities, training sessions, and member transformations.</p>
+        </div>
+
+        <div class="gallery-grid reveal">
+          <div class="gallery-item" id="gallery-item-1">
+            <img src="images/gym-interior.png" alt="Modern gym interior with premium equipment and neon green lighting" loading="lazy" />
+            <div class="gallery-overlay"><span>Our Premium Facility</span></div>
+          </div>
+          <div class="gallery-item" id="gallery-item-2">
+            <img src="images/gallery-yoga.png" alt="Person doing yoga pose in dark studio with green lighting" loading="lazy" />
+            <div class="gallery-overlay"><span>Yoga & Flexibility</span></div>
+          </div>
+          <div class="gallery-item" id="gallery-item-3">
+            <img src="images/gallery-boxing.png" alt="Person boxing a heavy bag in a dark gym with neon lights" loading="lazy" />
+            <div class="gallery-overlay"><span>Boxing & Cardio</span></div>
+          </div>
+          <div class="gallery-item" id="gallery-item-4">
+            <img src="images/transformation.png" alt="Fitness transformation and body progress" loading="lazy" />
+            <div class="gallery-overlay"><span>Member Transformation</span></div>
+          </div>
+          <div class="gallery-item" id="gallery-item-5">
+            <img src="images/gallery-weights.png" alt="Person lifting heavy dumbbells with dramatic lighting" loading="lazy" />
+            <div class="gallery-overlay"><span>Strength Training</span></div>
+          </div>
+          <div class="gallery-item" id="gallery-item-6">
+            <img src="images/trainer.png" alt="Expert fitness trainer portrait" loading="lazy" />
+            <div class="gallery-overlay"><span>Expert Trainers</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================
+         9. CONTACT SECTION
+         ========================================= -->
+    <section class="contact section" id="contact">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-label">Contact Us</p>
+          <h2>Let's Start Your <br/>Fitness Journey</h2>
+          <p>Have a question or ready to join? Reach out and our team will get back to you within 24 hours.</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Info -->
+          <div class="contact-info reveal-left">
+            <h3>Get in Touch</h3>
+            <p>We're here to help you take the first step. Reach out through any channel below, or fill out the form and we'll contact you.</p>
+
+            <div class="contact-details">
+              <div class="contact-item">
+                <div class="contact-icon">📍</div>
+                <div>
+                  <h4>Location</h4>
+                  <p>123 Fitness Street, Koregaon Park, Pune 411001</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">📞</div>
+                <div>
+                  <h4>Phone</h4>
+                  <p>+91 98765 43210</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">✉️</div>
+                <div>
+                  <h4>Email</h4>
+                  <p>hello@fitlifepro.com</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">🕐</div>
+                <div>
+                  <h4>Working Hours</h4>
+                  <p>Mon – Sat: 5:00 AM – 10:00 PM</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form glass-card reveal-right" id="contact-form-card">
+            <form id="contactForm" aria-label="Contact Form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="contact-name">Full Name</label>
+                  <input type="text" id="contact-name" name="name" placeholder="John Doe" required aria-required="true" />
+                </div>
+                <div class="form-group">
+                  <label for="contact-email">Email Address</label>
+                  <input type="email" id="contact-email" name="email" placeholder="john@example.com" required aria-required="true" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="contact-message">Your Message</label>
+                <textarea id="contact-message" name="message" placeholder="Tell us about your fitness goals..." rows="5" required aria-required="true"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" id="contact-submit-btn">
+                Send Message
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13"/><path d="M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+              </button>
+            </form>
+
+            <!-- Success state -->
+            <div class="form-success" id="formSuccess">
+              <div class="success-icon">✅</div>
+              <h3>Message Sent!</h3>
+              <p>Thank you for reaching out. We'll get back to you within 24 hours.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =============================================
+       10. FOOTER
+       ============================================= -->
+  <footer class="footer" id="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand Column -->
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <div class="logo-icon">💪</div>
+            Fit<span>Life</span> Pro
+          </div>
+          <p>Transform your body and life with India's most trusted fitness brand. Personalized programs for every goal.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook" title="Facebook">📘</a>
+            <a href="#" aria-label="Instagram" title="Instagram">📸</a>
+            <a href="#" aria-label="Twitter" title="Twitter">🐦</a>
+            <a href="#" aria-label="YouTube" title="YouTube">🎬</a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-column">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#plans">Plans</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Programs -->
+        <div class="footer-column">
+          <h4>Programs</h4>
+          <ul>
+            <li><a href="#services">Personal Training</a></li>
+            <li><a href="#services">Weight Loss</a></li>
+            <li><a href="#services">Muscle Building</a></li>
+            <li><a href="#services">Nutrition Plans</a></li>
+            <li><a href="#services">Online Coaching</a></li>
+          </ul>
+        </div>
+
+        <!-- Support -->
+        <div class="footer-column">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#bmi">BMI Calculator</a></li>
+            <li><a href="#blog">Fitness Blog</a></li>
+            <li><a href="#testimonials">Success Stories</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 FitLife Pro. All rights reserved. Made with 💚 for fitness lovers.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Terms of Service</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top" title="Back to top">↑</button>
+
+  <!-- ---- JavaScript ---- -->
+  <script src="script.js"></script>
+</body>
+</html>
